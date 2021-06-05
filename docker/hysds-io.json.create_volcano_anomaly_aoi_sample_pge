@@ -1,0 +1,109 @@
+{
+  "submission_type": "individual",
+  "params": [
+    {
+      "name": "polygon",
+      "from": "submitter",
+      "type": "object",
+      "default": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ]
+          ]
+        },
+        "properties": {
+          "name": "Earth"
+        }
+      }
+    },
+    {
+      "name": "track_number",
+      "from": "submitter",
+      "type": "number",
+      "default": "0"
+    },
+    {
+      "name": "active_pixel_x_min",
+      "from": "submitter",
+      "type": "number",
+      "default": "20"
+    },
+    {
+      "name": "active_pixel_x_max",
+      "from": "submitter",
+      "type": "number",
+      "default": "30"
+    },
+    {
+      "name": "active_pixel_y_min",
+      "from": "submitter",
+      "type": "number",
+      "default": "20"
+    },
+    {
+      "name": "active_pixel_y_max",
+      "from": "submitter",
+      "type": "number",
+      "default": "30"
+    },
+    {
+      "name": "outer_pixel_x_min",
+      "from": "submitter",
+      "type": "number",
+      "default": "15"
+    },
+    {
+      "name": "outer_pixel_x_max",
+      "from": "submitter",
+      "type": "number",
+      "default": "35"
+    },
+    {
+      "name": "outer_pixel_y_min",
+      "from": "submitter",
+      "type": "number",
+      "default": "15"
+    },
+    {
+      "name": "outer_pixel_y_max",
+      "from": "submitter",
+      "type": "number",
+      "default": "35"
+    },
+    {
+      "name": "start_time",
+      "from": "submitter",
+      "type": "text",
+      "default": "2000-01-01"
+    },
+    {
+      "name": "end_time",
+      "from": "submitter",
+      "type": "text",
+      "default": "2100-01-01"
+    }
+  ],
+  "component": "tosca",
+  "label": "Create Volcano Anomaly AOI"
+}
