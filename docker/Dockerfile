@@ -1,4 +1,5 @@
-FROM artifactory.com/nisar_ade:latest
+# FROM artifactory.com/nisar_ade:latest
+FROM cae-artifactory.jpl.nasa.gov:16001/gov/nasa/jpl/nisar/sds/pcm/nisar_ade:r1.4.2
 
 ENV HOME=/home/jovyan \
     CONDA_DIR=/opt/conda
