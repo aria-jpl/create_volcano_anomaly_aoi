@@ -51,11 +51,11 @@
       "destination": "context"
     },
     {
-      "name": "start_time",
+      "name": "start_date",
       "destination": "context"
     },
     {
-      "name": "end_time",
+      "name": "end_date",
       "destination": "context"
     }
   ]

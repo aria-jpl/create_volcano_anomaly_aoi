@@ -92,13 +92,13 @@
       "default": "35"
     },
     {
-      "name": "start_time",
+      "name": "start_date",
       "from": "submitter",
       "type": "text",
       "default": "2000-01-01"
     },
     {
-      "name": "end_time",
+      "name": "end_date",
       "from": "submitter",
       "type": "text",
       "default": "2100-01-01"
